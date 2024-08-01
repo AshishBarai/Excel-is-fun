@@ -1,6 +1,49 @@
-sum
-filter
-month
-year
-top 3
-index and max
+>SUM,
+SUM Function – Explanation
+
+Sum is a function that allows us to sum numbers easily.
+We can type in the function actual numbers, but we can also use cell references and sum entire ranges!
+Syntax
+	The syntax of the function is quite simple:
+=SUM(value1,value2,value3...)
+value1 – number or cell reference we’d like to sum.  If we use cell reference (for example – the range of cells between B2 to B6), we can select a range and sum it – for example, B2:B6.
+
+
+>MAX,
+MAX Function - Explanation
+MAX function is used when we want to find the maximum value within a range of cell.
+
+Syntax:
+	The Syntax of the MAX function is as follows:
+=MAX(value1, value2, value3,...)
+We can insert into the MAX function a range of cells, for example:
+
+=MAX(A1:A4)
+
+>MIN,
+MIN function - Explanation
+MIN Function is the opposite of MAX function, and it's used when we want to find the minimum value within a range of cells.
+
+Syntax:
+	The syntax of the MIN Function is as follows:
+=MIN(value1,value2,value3,...)
+
+We can insert into the MIN function a range of cells, for example:
+
+=MIN(A1:A4)
+
+The function above will look within the cells in range A1 to A4, and return the smallest value.
+
+
+>COUNTA,
+COUNTA Function - Explanation
+With COUNTA you can count all items in a range with COUNTA, both text and Numbers.
+The A stands for 'ALL', this is a contrast to count function which counts only numeric values
+Syntax
+=COUNTA(value1,[value2],[value3]…)
+
+For value1 we will use a cell range – for example, to count the cells in range A1:D4, we will type:
+
+=COUNTA(A1:A4)
+
+We can use this function to check multiple ranges, by typing additional range in [value2], [value3] etc…
